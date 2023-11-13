@@ -1,0 +1,489 @@
+.body{
+    background-color: #CDCDCD;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.picture_header{
+    width: 100%;
+    height: 860px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo_header{
+    position: absolute;
+    width: 1039px;
+    height: 650px;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+.button_header{
+    bottom: 55px;
+    position: absolute;
+}
+
+.button_header_not_pressed{
+    display: inline;
+    padding: 5px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    border-color: white;
+}
+
+.button_header_pressed{
+    display: inline;
+    padding: 5px 15px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    position: absolute;
+    border-color: white;
+}
+
+.text_header{
+    text-align: center;
+    position: absolute;
+    color: white;
+    text-shadow: 10px 10px 10px grey;
+    opacity: 0.7;
+    font-size: 80px;
+    margin-top: 275px;
+    margin-left: 315px;
+}
+
+.text_bot{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 1000px;
+}
+
+.text_bot2{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 1300px;
+}
+
+.text_bot3{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 1500px;
+}
+
+.text_bot4{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 52px;
+}
+
+.picture_pin{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    margin-top: 790px;
+    margin-left: 350px;
+}
+
+.text_pin{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    margin-top: 769px;
+    margin-left: 410px;
+}
+
+.picture_phone{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    margin-top: 790px;
+    margin-left: 1155px;
+}
+
+.text_phone{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    margin-top: 769px;
+    margin-left: 1210px;
+}
+
+.text_header2{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.3;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-left: 315px;
+    transform: translateX(-20%);
+    transition: all 4s;
+}
+
+.text_body{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 63px;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+
+.logo_button{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 375px;
+    margin-left: 815px;
+}
+
+.logo_header2{
+    position: absolute;
+    width: 95%;
+    margin-top: 500px;
+    margin-left: 50px;
+}
+
+.text_header3{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.3;
+    font-size: 80px;
+    margin-top: -40px;
+    margin-left: 625px;
+    transform: translateX(-20%);
+    transition: all 4s;
+}
+
+.bench{
+    position: absolute;
+    width: 15%;
+    margin-top: 265px;
+    margin-left: 140px;
+}
+.text_bench{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 550px;
+    margin-left: 150px;
+}
+
+.town{
+    position: absolute;
+    width: 15%;
+    margin-top: 315px;
+    margin-left: 530px;
+}
+.text_town{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 550px;
+    margin-left: 555px;
+}
+
+.fontain{
+    position: absolute;
+    width: 15%;
+    margin-top: 275px;
+    margin-left: 960px;
+}
+.text_fontain{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 550px;
+    margin-left: 955px;
+}
+
+.bicycle{
+    position: absolute;
+    width: 15%;
+    margin-top: 330px;
+    margin-left: 1350px;
+}
+.text_bicycle{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 550px;
+    margin-left: 1345px;
+}
+
+.text_header4{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.3;
+    font-size: 80px;
+    margin-top: -60px;
+    margin-left: 315px;
+    transform: translateX(-20%);
+    transition: all 4s;
+}
+
+.catalog_image1{
+    position: absolute;
+    width: 28%;
+    margin-top: 130px;
+    margin-left: 350px;
+}
+.text_image1{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+    margin-top: 330px;
+    margin-left: 250px;
+}
+
+.catalog_image2{
+    position: absolute;
+    width: 28%;
+    margin-top: 490px;
+    margin-left: 350px;
+}
+.text_image2{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+    margin-top: 650px;
+    margin-left: 250px;
+}
+
+.catalog_image3{
+    position: absolute;
+    width: 28%;
+    margin-top: 130px;
+    margin-left: 950px;
+}
+.text_image3{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+    margin-top: 330px;
+    margin-left: 1210px;
+}
+
+.catalog_image4{
+    position: absolute;
+    width: 28%;
+    margin-top: 490px;
+    margin-left: 950px;
+}
+.text_image4{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+    margin-top: 650px;
+    margin-left: 1210px;
+}
+
+.logo_header3{
+    position: absolute;
+    width: 1700px;
+    height: 880px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.text_header5{
+    text-align: center;
+    position: absolute;
+    color: white;
+    opacity: 1;
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 115px;
+}
+
+.text_header6{
+    text-align: left;
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+    font-size: 45px;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+
+.name{
+    position: absolute;
+    width: 15%;
+    margin-top: 410px;
+    margin-left: 1100px;
+}
+.text_name{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 400px;
+    margin-left: 1180px;
+}
+
+.num{
+    position: absolute;
+    width: 15%;
+    margin-top: 410px;
+    margin-left: 1450px;
+}
+.text_num{
+    text-align: center;
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    margin-top: 400px;
+    margin-left: 1520px;
+}
+
+.bt1{
+    opacity: 0.8;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 1450px;
+    display: inline;
+    border-radius: 80px;
+    background-color: lightcoral;
+    color:white;
+    padding: 3 12px;
+    width: 15%;
+    height: 8%;
+    font-size: 45px;
+}
+
+.district{
+    position: absolute;
+    width: 15%;
+    margin-top: 580px;
+    margin-left: 1450px;
+}
+.text_district{
+    text-align: center;
+    position: absolute;
+    color: lightyellow;
+    font-size: 35px;
+    margin-top: 570px;
+    margin-left: 1520px;
+}
+
+.logo_header4{
+    position: absolute;
+    width: 1039px;
+    height: 650px;
+    margin-top: 170px;
+    margin-left: 350px;
+}
+
+.logo_header5{
+    position: absolute;
+    width: 1700px;
+    height: 860px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+
+.picture_header2{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_header7{
+    text-align: center;
+    position: absolute;
+    color: orange;
+    opacity: 0.5;
+    font-size: 80px;
+    margin-top: -30px;
+    margin-left: 315px;
+}
+
+.email{
+    position: absolute;
+    width: 25%;
+    margin-top: 210px;
+    margin-left: 150px;
+}
+.text_email{
+    text-align: center;
+    position: absolute;
+    color: orange;
+    font-size: 35px;
+    margin-top: 190px;
+    margin-left: 165px;
+}
+
+.tg{
+    position: absolute;
+    width: 25%;
+    margin-top: 210px;
+    margin-left: 650px;
+}
+.text_tg{
+    text-align: center;
+    position: absolute;
+    color: orange;
+    font-size: 55px;
+    margin-top: 190px;
+    margin-left: 715px;
+}
+
+.picture_header3{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo_header8{
+    position: absolute;
+    width: 85%;
+    margin-top: 0px;
+    margin-left: 100px;
+}
